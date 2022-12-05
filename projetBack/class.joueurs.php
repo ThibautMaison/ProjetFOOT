@@ -10,9 +10,6 @@ class Player
     private $post;
     private $remplacant;
 
-
-
-
     public function __construct($nom, $prenom, $post, $age, $remplacant)
     {
         $stock = self::$idFirst++;
@@ -41,9 +38,6 @@ class Player
     public function getPost(){return $this->post;}
     public function getAge(){return $this->age;}
     public function getRemplacant(){return $this->remplacant;}
-
-
-
 
     //setter
     public function setId($id){$this->id = $id;return $this;}

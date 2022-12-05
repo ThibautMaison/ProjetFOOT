@@ -1,4 +1,6 @@
-<?php ob_start()?>
+<?php ob_start();
+require "../projetBack/class.equipe.php";
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,15 +13,16 @@
 <body style="background-image: url('world-cup.avif');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
     <div class="mt-5 pt-5 " >
         <div class="container d-flex justify-content-around align-items-center mt-5 pt-5">
-        <a href="Poule-A-Brasil.php"><img  src="/projetFront/brasil.png" alt="" ></a>
-        <a href="Poule-A-Coree.php"><img  src="/projetFront/coree.png" alt="" ></a>
-        <a href="Poule-A-Allemagne.php"><img  src="/projetFront/allemagne.png" alt="" ></a>
-        <a href="Poule-A-Argentine.php"><img  src="/projetFront/argentine.png" alt="" ></a>
+        <?php foreach ($equipes as $equipe){
+            if ($equipe->getPoule() == "A"){
+                ?><a href="Poule-A-<?php echo $equipe->getNation() ?>.php"><img  src="/projetFront/<?php echo $equipe->getNation() ?>.png" alt="" ></a><?php
+            }
+        }
+        ?>
         </div>
     </div>
 </body>
 </html>
-
 <?php
 $content=ob_get_clean();
 require "template.php";
