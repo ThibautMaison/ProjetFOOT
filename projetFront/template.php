@@ -20,7 +20,7 @@
       <ul class="navbar-nav me-auto">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Poule d'equipe</a>
-          <div class="dropdown-menu bg-dark" aria-labelledby="navbarEquipe">
+          <div class="dropdown-menu " aria-labelledby="navbarEquipe">
           <a class="dropdown-item " href="Poule-A.php">Poule A</a>
           <a class="dropdown-item" href="#">Poule B</a>
           <a class="dropdown-item" href="#">Poule C</a>

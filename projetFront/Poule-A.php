@@ -11,10 +11,10 @@
 <body style="background-image: url('world-cup.avif');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
     <div class="mt-5 pt-5 " >
         <div class="container d-flex justify-content-around align-items-center mt-5 pt-5">
-        <a href="Poule-A-Brasil.php"><img  src="/brasil.png" alt="" ></a>
-        <a href="Poule-A-Coree.php"><img  src="/coree.png" alt="" ></a>
-        <a href="Poule-A-Allemagne.php"><img  src="/allemagne.png" alt="" ></a>
-        <a href="Poule-A-Argentine.php"><img  src="/argentine.png" alt="" ></a>
+        <a href="Poule-A-Brasil.php"><img  src="/projetFront/brasil.png" alt="" ></a>
+        <a href="Poule-A-Coree.php"><img  src="/projetFront/coree.png" alt="" ></a>
+        <a href="Poule-A-Allemagne.php"><img  src="/projetFront/allemagne.png" alt="" ></a>
+        <a href="Poule-A-Argentine.php"><img  src="/projetFront/argentine.png" alt="" ></a>
         </div>
     </div>
 </body>

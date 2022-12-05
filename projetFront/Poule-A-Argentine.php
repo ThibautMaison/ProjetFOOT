@@ -11,7 +11,7 @@
 <body style="background-image: url('world-cup.avif');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
     <div class="mt-5 pt-5 " >
         <div class="container d-flex justify-content-around align-items-center mt-5 pt-5">
-            <a href="Poule-A.php"><img  src="/Argentine.png" alt="" ></a>
+            <a href="Poule-A.php"><img  src="/projetFront/argentine.png" alt="" ></a>
             <div class="d-grid gap-5 col-6 mx-auto">
                 <a class="btn btn-outline-light" href="Liste-Argentine.php" role="button">Liste de l'Argentine</a>
                 <a class="btn btn-outline-light" href="Compo-Argentine.php" role="button">Composition de l'Argentine</a>
