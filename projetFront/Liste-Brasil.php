@@ -1,5 +1,6 @@
 <?php ob_start();
-require "../projetBack/class.equipe.php"
+require "../projetBack/class.equipe.php";
+require "../projetBack/class.joueurs.php";
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +14,7 @@ require "../projetBack/class.equipe.php"
 <body style="background-image: url('world-cup.avif');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
     <div class="container">
         <h1>Les 7 joueurs selecttionnés par</h1>
+        <!-- <?php var_dump($allemagne) ?>  -->
     </div>
     <div class="container">
         <h2 class="bg-black ">GARDIENS</h2>
