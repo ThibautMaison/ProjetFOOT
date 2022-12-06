@@ -16,7 +16,7 @@ require "../projetBack/bdd.php";
 <body style="background-image: url('world-cup.avif');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
     <div class="container">
         <h1>Les 7 joueurs selecttionnés par</h1>
-        <?php foreach ($bresils as $player) {
+        <?php foreach ($coreeSs as $player) {
             echo $player->presentation();
         } ?>
 
