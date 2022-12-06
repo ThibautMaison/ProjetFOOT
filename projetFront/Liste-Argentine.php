@@ -13,16 +13,23 @@ require "../projetBack/bdd.php";
     <title>Liste</title>
 </head>
 
-<body style="background-image: url('world-cup.avif');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
+<body style="background-image: url('img/world-cup.avif');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
     <div class="container">
-        <h1>Les 7 joueurs selecttionnés par</h1>
-        <?php foreach ($argentines as $player) {
-            echo $player->presentation();
-        } ?>
+        <h2 class="text-light text-center text-uppercase fw-bold fs-1 text-decoration-underline">LISTE DES JOUEURS</h2>
 
     </div>
+    <h1 class="d-flex text-light">Les 7 joueurs selectionnés par <?php
+        foreach ($equipes as $value) {
+        if ($value->getNation() == "Argentine") {
+            echo $value->getSelectionneur();
+            }
+        };
+    ?> sont :</h1>
+
     <div class="container">
-        <h2 class="bg-black ">GARDIENS</h2>
+        <div class="d-flex justify-content-start text-light font-weight-bold col"><?php foreach ($argentines as $player) {
+            echo $player->presentation();
+        } ?></div>
 
     </div>
 </body>

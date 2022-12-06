@@ -1,3 +1,7 @@
+<?php 
+require "../projetBack/bdd.php";
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -30,9 +34,23 @@
         </div>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-sm-2 " type="text" placeholder="Recherche d'equipe">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      <?php if (isset($_POST["submit"])){
+          foreach ($equipes as $value){
+            if($_POST['text'] === "Coree"){
+                header('Location: http://localhost/projetFront/Poule-A-Coree.php');
+              }elseif($_POST['text'] === "Allemagne"){
+              header('Location: http://localhost/projetFront/Poule-A-Allemagne.php');
+            }elseif($_POST['text'] === "Argentine"){
+              header('Location: http://localhost/projetFront/Poule-A-Argentine.php');
+            }elseif($_POST['text'] === "Bresil"){
+              header('Location: http://localhost/projetFront/Poule-A-Brasil.php');
+          }
+        }
+      }
+          ?>
+      <form  method="POST" class="d-flex" >
+        <input class="form-control me-sm-2 " type="text" placeholder="Recherche d'equipe" name="text">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit" name="submit">Entrez</button>
       </form>
     </div>
   </div>

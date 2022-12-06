@@ -12,21 +12,13 @@ require "../projetBack/bdd.php";
     <link rel="stylesheet" href="/style.css">
 </head>
 
-<body style="background-image: url('world-cup.avif');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
+<body style="background-image: url('img/world-cup.avif');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
     <div class="mt-5 pt-5 ">
         <div class="container d-flex justify-content-around align-items-center mt-5 pt-5">
             <?php foreach ($equipes as $equipe) {
-                echo "a";
-            }
-            ?>
-
-
-            <?php foreach ($equipes as $equipe) {
                 if ($equipe->getPoule() == "A") {
-            ?><a href="Poule-A-<?php echo $equipe->getNation() ?>.php"><img src="<?php echo $equipe->getNation() ?>.png" alt=""></a><?php
-                                                                                                                                }
-                                                                                                                            }
-                                                                                                                                    ?>
+            ?><a href="Poule-A-<?php echo $equipe->getNation() ?>.php"><img src="img/<?php echo $equipe->getNation() ?>.png" alt=""></a><?php                                                                                                                    }
+            }                                                                                                                       ?>
         </div>
     </div>
 </body>

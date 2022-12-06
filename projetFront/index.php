@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
 </head>
-<body style="background-image: url('cdm2022.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
+<body style="background-image: url('img/pagedaccueil.png');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;">
     
 </body>
 </html>

@@ -89,11 +89,12 @@ class Player
 
     public function presentation()
     {
-        echo $this->nom . "<br/>";
-        echo $this->prenom . "<br/>";
-        echo "<b>post: </b>" . $this->post . "<br/>";
-        echo "<b>age : </b>" . $this->age  . "<br/>";
-        echo "<b>remplacant : </b>" . $this->remplacant . "<br/>";
+        echo "<b>Nom: " . $this->nom . "<br/>";
+        echo "<b>Prénom: " . $this->prenom . "<br/>";
+        echo "<b>Poste: " . $this->post . "<br/>";
+        echo "<b>Age : " . $this->age  . "<br/>";
+        echo "<b>Remplacant : " . $this->remplacant . "<br/>";
+        echo "------------------------------------------------------------". "<br/>";
     }
 
     //getter
