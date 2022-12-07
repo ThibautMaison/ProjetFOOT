@@ -16,7 +16,7 @@
             <a href="Poule-A.php"><img src="img/argentine.png" alt=""></a>
             <div class="d-grid gap-5 col-6 mx-auto">
                 <a class="btn btn-lg btn-light" href="Liste-Argentine.php" role="button">Liste de l'Argentine</a>
-                <a class="btn btn-lg btn-light" href="Compo-Argentine.php" role="button">Composition de l'Argentine</a>
+                <a class="btn btn-lg btn-light" href="EffectifArgentine.html" role="button">Composition de l'Argentine</a>
             </div>
         </div>
     </div>

@@ -16,7 +16,7 @@
             <a href="Poule-A.php"><img src="img/brasil.png" alt=""></a>
             <div class="d-grid gap-5 col-6 mx-auto">
                 <a class="btn btn-lg btn-light" href="Liste-Brasil.php" role="button">Liste du Brasil</a>
-                <a class="btn btn-lg btn-light" href="Compo-Brasil.php" role="button">Composition du Brasil</a>
+                <a class="btn btn-lg btn-light" href="EffectifBresil.html" role="button">Composition du Brasil</a>
             </div>
         </div>
     </div>

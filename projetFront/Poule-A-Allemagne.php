@@ -16,7 +16,7 @@
             <a href="Poule-A.php"><img src="img/allemagne.png" alt=""></a>
             <div class="d-grid gap-5 col-6 mx-auto">
                 <a class="btn btn-lg btn-light" href="Liste-Allemagne.php" role="button">Liste de l'Allemagne</a>
-                <a class="btn btn-lg btn-light" href="Compo-Allemagne.php" role="button">Composition de l'Allemagne</a>
+                <a class="btn btn-lg btn-light" href="EffectifAllemagne.html" role="button">Composition de l'Allemagne</a>
             </div>
         </div>
     </div>

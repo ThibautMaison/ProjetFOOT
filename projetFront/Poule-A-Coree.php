@@ -16,7 +16,7 @@
             <a href="Poule-A.php"><img src="img/coree.png" alt=""></a>
             <div class="d-grid gap-5 col-6 mx-auto">
                 <a class="btn btn-lg btn-light" href="Liste-Coree.php" role="button">Liste de la Coree</a>
-                <a class="btn btn-lg btn-light" href="Compo-Coree.php" role="button">Composition de la Coree</a>
+                <a class="btn btn-lg btn-light" href="EffectifCoree.html" role="button">Composition de la Coree</a>
             </div>
         </div>
     </div>
